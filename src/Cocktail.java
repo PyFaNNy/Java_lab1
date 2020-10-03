@@ -1,17 +1,17 @@
 public class Cocktail extends Food {
-    private Double volumeMilk;
-    private Double volumeIceCream;
+    private Double volumeDrink;
+    private Double volumeFruit;
 
-    private Double milkCalories = 42.0;
-    private Double iceCreamCalories = 207.0;
+    private Double DrinkCalories = 42.0;
+    private Double FruitCalories = 207.0;
 
     public Cocktail(Double volumeMilk, Double volumeIceCream)
     {
-        this.volumeMilk = volumeMilk;
-        this.volumeIceCream = volumeIceCream;
+        this.DrinkCalories = volumeMilk;
+        this.FruitCalories = volumeIceCream;
 
-        FirstArgument = volumeMilk * milkCalories ;
-        SecondArgument = volumeIceCream * iceCreamCalories;
+        FirstArgument = volumeMilk * DrinkCalories ;
+        SecondArgument = volumeIceCream * FruitCalories;
     }
 
     public double calculateCalories()
