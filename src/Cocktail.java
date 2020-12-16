@@ -13,6 +13,7 @@ public class Cocktail extends Food {
         FirstArgument = volumeMilk * DrinkCalories ;
         SecondArgument = volumeIceCream * FruitCalories;
     }
+    
 
     public double calculateCalories()
     {

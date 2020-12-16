@@ -30,7 +30,7 @@ public class Main {
                 appleClass.consume();
                 break;
             case cocktail:
-                System.out.println("What drink and fruit do you want?");
+                System.out.println("how many drink and fruit do you want?");
 
                 Double volumeDrink = scan.nextDouble();
                 Double volumeFruit = scan.nextDouble();
